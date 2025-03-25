@@ -6,6 +6,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- comment -->
 <title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,6 +38,7 @@ background-image: url("background.jpg");
       </div>
       </div>
          <a href="#Izklajlapas" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Izklājlapas</a>
+         <a href="#3D" class="w3-bar-item w3-button w3-padding-large w3-hide-small">3D kuba skaldne</a>
     <a href="#Video" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Video</a>
     <a href="#Webfronted" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Webfronted</a>
     <a href="otrais.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Individuāla tēma</a>
@@ -51,6 +54,7 @@ background-image: url("background.jpg");
   <a href="#Izklajlapas" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Izklājlapas</a>
   <a href="#Parportfolio" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Par portfolio</a>
  <a href="#Webfronted" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Webfronted</a>
+ <a href="#3D" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">3D kuba skaldne</a>
  <a href="#Video" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Video</a>
 </div>
 
@@ -62,7 +66,7 @@ background-image: url("background.jpg");
  
 
   <!-- par portfolio -->
-  <div class="w3-black" id="Parportfolio">
+  <div  id="Parportfolio">
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Parportfolio">
     <h2 class="w3-wide">Par portfolio</h2>
     <p class="w3-opacity"><i>Datorika</i></p>
@@ -75,6 +79,7 @@ background-image: url("background.jpg");
   <!-- Teksta apstrāde -->
     <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Tekstaapstrade">
     <h2 class="w3-wide">Teksta apstrāde</h2>
+    <p>Mācījāmies izmantot Word lietotni padziļinātāk</p>
    <img src="images/word.png" style="width:70%;height:40%">
  
   </div>
@@ -88,12 +93,19 @@ background-image: url("background.jpg");
     </div>
 
   </div>
-  
+  <!-- 3D skaldne -->
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="3D">
+    <h2 class="w3-wide">3D kuba skaldne</h2>
+    <img src="images/3d.jpeg" style="width:70%;height":40%;">
+    
+  </div>
   
   <!-- Video -->
     <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Video">
     <h2 class="w3-wide">Video</h2>
- 
+    <video width="620" height="440" controls>
+  <source src="images/video.mp4" type="video/mp4">
+    </video>
   </div>
   
   <!-- Attēlu apstrāde -->
@@ -105,9 +117,8 @@ background-image: url("background.jpg");
    <!-- Rastrgrafika -->
     <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Rastrgrafika">
     <h2 class="w3-wide">Rastrgrafika</h2>
+    <img src="images/animacija.gif" style="width:90%;height:70%">
     
-    <img src="images/inkscape.png" style="width:70%;height":40%;">
-    <div class="w3-row-padding w3-padding-32" style"="margin:0 -16px">
     </div>
     </div>
   </div>
@@ -115,12 +126,16 @@ background-image: url("background.jpg");
   <!-- Vektorgrafika -->
     <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Vektorgrafika">
     <h2 class="w3-wide">Vektorgrafika</h2>
+    <img src="images/inkscape.png" style="width:70%;height":40%;">
+    <div class="w3-row-padding w3-padding-32" style"="margin:0 -16px">
+
     
   </div>
 
     <!-- Webfronted -->
     <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Webfronted">
     <h2 class="w3-wide">Webfronted</h2>
+    <p>Mācījāmies kodēt</p>
     <img src="images/webfronted.png"
  
   </div>
@@ -137,6 +152,9 @@ background-image: url("background.jpg");
 
 <!-- Image of location/map -->
 <img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<a href="skola.html">skola.html</a>
+<a href="baiti.html">baiti.html</a>
 
 
 
